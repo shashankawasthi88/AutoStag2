@@ -16,6 +16,15 @@
           "schema": {
             "$ref": "#/components/schemas/SpacecraftId"
           }
+        },
+         {
+          "name": "spacecraftId1",
+          "description": "The unique identifier of the spacecraft",
+          "in": "query",
+          "required": true,
+          "schema": {
+            "$ref": "#/components/schemas/SpacecraftId"
+          }
         }
       ],
       "get": {
